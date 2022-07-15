@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Dice</title>
+    <link rel="stylesheet" href="dice.css">
 </head>
 <body>
+    <header>  
+        <h1 class="heading">Lucky Dice Game</h1>
+        <div class="players">
+            <div class="p1">
+                <h2 class="user">Player 1</h2>
+                <div class="holdScore">0</div>
+                <div class="currentScore">
+                    <h4>CURRENT</h4>
+                    <div class="current">0</div>
+                </div>
+            </div>
+            <div class="p2">
+                <h2 class="user">Player 2</h2>
+                <div class="holdScore">0</div>
+                <div class="currentScore">
+                    <h4>CURRENT</h4>
+                    <div class="current">0</div>
+                </div>
+            </div>
+        </div>    
+        <div class="dice_roll"></div>
+    </header>
+    <main class="functions">
+        <button class="new_game btn">🔄NEW GAME</button>
+        <button class="roll btn">ROLL DICE</button>
+        <button class="hold btn">HOLD</button>
+    </main>
     
+
+
+    <script src="dice.js"></script>
 </body>
 </html>
